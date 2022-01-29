@@ -5,7 +5,7 @@ import Seo from '../components/seo';
 const Contacts = () => {
   return (
     <Layout>
-      <Seo title="Page two" />
+      <Seo title="Contacts" />
     </Layout>
   );
 };

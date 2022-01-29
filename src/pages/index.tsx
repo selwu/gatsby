@@ -6,7 +6,7 @@ import HeroProduct from '../components/hero-product/hero-product';
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="Product" />
     <HeroProduct />
   </Layout>
 );
