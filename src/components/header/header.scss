@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 35px;
+  padding: 16px 35px;
   color: $accent60;
   position: sticky;
   top: 0;
@@ -26,11 +26,20 @@
     justify-content: flex-start;
     gap: 16px;
   }
+  &__nav-list > li > a {
+    padding: 4px 0;
+  }
   &__menu-link {
-    text-decoration: none;
-    color: $primary60;
+    color: $accent30;
+  }
+  &__language-link {
+    color: $primary50;
   }
   &__menu-active {
-    color: $primary20;
+    color: $primary50;
+    border-bottom: 2px solid $accent30;
+  }
+  &__language-active {
+    color: $primary30;
   }
 }

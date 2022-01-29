@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
 import './header.scss';
-import logo from '../../images/Superlive-logo.svg';
+import logo from '../../images/Superlive-logo.png';
 
 const Header = () => {
   return (
@@ -16,7 +16,16 @@ const Header = () => {
         <ul className="header__nav-list">
           <li>
             <Link className="header__menu-link" activeClassName="header__menu-active" to={'/'}>
-              Home
+              Продукт
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="header__menu-link"
+              activeClassName="header__menu-active"
+              to={'/meetup'}
+            >
+              ICE 2022
             </Link>
           </li>
           <li>
@@ -25,7 +34,34 @@ const Header = () => {
               activeClassName="header__menu-active"
               to={'/contacts'}
             >
-              Contacts
+              Контакты
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="header__language-link"
+              activeClassName="header__language-active"
+              to={'/'}
+            >
+              En
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="header__language-link"
+              activeClassName="header__language-active"
+              to={'/'}
+            >
+              Ru
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="header__language-link"
+              activeClassName="header__language-active"
+              to={'/'}
+            >
+              Es
             </Link>
           </li>
         </ul>
