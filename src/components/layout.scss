@@ -1,0 +1,19 @@
+@import "../constants-styles.scss";
+
+.layout {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  &__main {
+    flex: 1 1 auto;
+   }
+  &__footer {
+    margin: auto;
+    height: 122px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    color: $primary30;
+  }
+}

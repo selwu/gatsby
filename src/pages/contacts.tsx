@@ -1,14 +1,12 @@
-import { Link } from 'gatsby';
 import * as React from 'react';
-import Header from '../components/header/header';
-import HeroProduct from '../components/hero-product/hero-product';
+import Layout from '../components/layout';
+import Seo from '../components/seo';
 
 const Contacts = () => {
   return (
-    <div style={{ background: '#364d59' }}>
-      <Header />
-      <HeroProduct />
-    </div>
+    <Layout>
+      <Seo title="Page two" />
+    </Layout>
   );
 };
 
